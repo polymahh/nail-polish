@@ -10,11 +10,11 @@ export function Footer() {
     <div className='p-12  m-auto max-w-[1280px]'>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-6 border-b pb-8 border-producttext">
             <div className='w-[50%] col-span-full sm:col-span-1' >
-                <Image src={logo} alt='logo'/>
+                <h1 className="text-2xl font-semibold text-white"><em>Polished</em></h1>
             </div>
             <div className='text-white flex flex-col gap-4 text-sm'>
                 <h3 className='text-producttext'>COMMUNITY</h3>
-                <span>Lexir for Brands</span>
+                <span>Polished for Brands</span>
                 <span>Business Buyers</span>
                 <span>Sales Affilliates</span>
             </div>
@@ -31,11 +31,11 @@ export function Footer() {
                 <span>Legal</span>
             </div>
             <div className='text-white flex flex-col gap-4 text-sm'>
-                <h3 className='text-producttext'>LEXIR SHOP</h3>
+                <h3 className='text-producttext'>Polished SHOP</h3>
                 <span>Brands</span>
-                <span>Spirits</span>
-                <span>wine</span>
-                <span>Blog</span>
+                <span>Beauty</span>
+                <span>Clothing</span>
+                <span>Shoes</span>
             </div>
             <div className='flex items-start  sm:justify-self-end gap-2'>
                 <Image src={medium} alt='medium'/>

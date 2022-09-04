@@ -13,7 +13,7 @@ export function CompanyCard() {
             <Image src={companyLogo} alt="logo"  ></Image>
         </div>
         <h1 className="text-2xl font-black text-red-400">Lily&apos;Cute</h1>
-        <p className="text-companytext">Badoria rosso is a red vermouth that balances fresh, herby bitter notes against. Kiss My Rhubarb takes its origins from an old handwritten recipe from co-creators Niels&apos; and Wouters&apos; rebellious grandparents.</p>
+        <p className="text-companytext">Every day, we use the power of beauty to bring to life the possibilities that lie within each of us — inspiring every guest and enabling each associate to build a fulfilling career.</p>
         <span className="text-red-400 font-semibold mb-16">Read More</span>
         <div className="flex items-start gap-4 self-start">
             <div className="pt-1">
@@ -31,8 +31,8 @@ export function CompanyCard() {
             <div>
                 <span className="font-semibold">Product Category</span>
                 <div className="flex gap-2  mt-2">
-                    <span className="bg-red-300 cursor-pointer text-white px-4 py-1 rounded-md ">Gin</span>
-                    <span className="bg-red-300 cursor-pointer text-white px-4 py-1 rounded-md">Vodka</span>
+                    <span className="bg-red-300 cursor-pointer text-white px-4 py-1 rounded-md ">Beauty</span>
+                    <span className="bg-red-300 cursor-pointer text-white px-4 py-1 rounded-md">Nails</span>
                 </div>
             </div>
         </div>

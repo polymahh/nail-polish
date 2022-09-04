@@ -85,7 +85,7 @@ export function Navigation() {
               )
             
           })}
-          <div><span className="text-xl font-bold">Total: {cartTotal}</span></div>
+          <div><span className="text-xl font-bold">Total: ${cartTotal}</span></div>
           <button className="w-full bg-red-400 mt-4 p-3 text-white rounded-sm">Checkout</button>
         </div> : <p className="my-8 mx-auto">Your Cart is empty</p> 
         }
